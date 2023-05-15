@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ficha de Cadastro</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Cadastro</h1>
+		<form>
+			<label for="nome">Nome:</label>
+			<input type="text" id="nome">
+
+			<label for="data">Data:</label>
+			<input type="date" id="data">
+
+			<button type="button" onclick="adicionar()">Adicionar</button>
+		</form>
+
+		<ul id="lista"></ul>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
